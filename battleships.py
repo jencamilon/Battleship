@@ -2,8 +2,6 @@ def ship_type(ship):
   '''to be implemented according to specification'''
 
   return ship[0] if ship [0] in ["destroyer", "carrier"] else None
-
- # Source: https://chatgpt.com for shortening the code instead of using if and else
   
 def ship_from_input(type_inp, rotation_inp, anchor_inp):
   '''to be implemented according to specification'''
@@ -99,8 +97,6 @@ def is_sunk(ship):
 
   else:
     return False
-
-# Source: https://chatgpt.com for defining if the long side or short side of the carrier is already sunk
 
 def is_water(row, column, fleet):
   '''to be implemented according to specification'''
